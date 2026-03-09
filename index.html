@@ -9,6 +9,9 @@
     <meta name="keywords" content="Discord Chinese, Learn Chinese, HSK Community, Chinese language exchange, Learn Mandarin, 学习中文, 语言交换">
     <meta name="author" content="Discord Chinese">
     
+    <link rel="icon" href="https://via.placeholder.com/64" type="image/png">
+    <link rel="apple-touch-icon" href="https://via.placeholder.com/192">
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+SC:wght@300;400;700;900&display=swap" rel="stylesheet">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -114,14 +117,24 @@
     <div class="ambient-orb orb-red"></div>
     <div class="ambient-orb orb-blue"></div>
 
-    <nav class="fixed w-full z-50 top-0 py-6 px-8 flex justify-between items-center glass-card border-none rounded-none !backdrop-blur-xl">
-        <div class="text-2xl font-black tracking-tighter flex items-center gap-2 gsap-fade">
-            <i data-lucide="message-circle" class="text-cnRed"></i>
-            Discord<span class="text-transparent bg-clip-text bg-gradient-to-r from-cnRed to-techBlue">Chinese</span>
+    <nav class="fixed w-full z-50 top-0 py-4 px-6 md:px-8 flex justify-between items-center glass-card border-none rounded-none !backdrop-blur-xl">
+        
+        <div class="text-xl md:text-2xl font-black tracking-tighter flex items-center gap-3 gsap-fade">
+            <img src="https://via.placeholder.com/40" alt="Discord Chinese Logo" class="w-10 h-10 rounded-full border border-gray-600 shadow-[0_0_10px_rgba(229,62,62,0.3)] object-cover">
+            <div>
+                Discord<span class="text-transparent bg-clip-text bg-gradient-to-r from-cnRed to-techBlue">Chinese</span>
+            </div>
         </div>
-        <div class="flex gap-4 gsap-fade">
-            <a href="https://x.com" target="_blank" class="hover:text-techBlue transition-colors"><i data-lucide="twitter"></i></a>
-            <a href="https://lnk.bio" target="_blank" class="hover:text-cnRed transition-colors"><i data-lucide="link"></i></a>
+        
+        <div class="flex items-center gap-4 md:gap-6 gsap-fade">
+            <div class="hidden sm:flex gap-4">
+                <a href="https://x.com" target="_blank" class="text-gray-300 hover:text-techBlue transition-colors"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                <a href="https://lnk.bio" target="_blank" class="text-gray-300 hover:text-cnRed transition-colors"><i data-lucide="link" class="w-5 h-5"></i></a>
+            </div>
+            
+            <a href="https://discord.gg/s4RtxQHdUV" class="px-5 py-2.5 bg-white text-discordDark font-bold rounded-full text-sm hover:scale-105 transition-transform flex items-center gap-2 shadow-lg">
+                <i data-lucide="log-in" class="w-4 h-4"></i> <span class="hidden sm:inline">加入服务器</span><span class="sm:hidden">加入</span>
+            </a>
         </div>
     </nav>
 
@@ -210,13 +223,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     
     <script>
-        // 1. 初始化图标
         lucide.createIcons();
-
-        // 2. GSAP 动画初始化
         gsap.registerPlugin(ScrollTrigger);
 
-        // 导航栏渐显
         gsap.from(".gsap-fade", {
             y: -20,
             opacity: 0,
@@ -225,7 +234,6 @@
             ease: "power3.out"
         });
 
-        // 首屏 Hero 文字元素错落入场
         gsap.from(".gsap-hero", {
             y: 50,
             opacity: 0,
@@ -235,7 +243,6 @@
             delay: 0.3
         });
 
-        // 滚动时的卡片视差与渐显
         gsap.utils.toArray('.gsap-scroll').forEach(element => {
             gsap.from(element, {
                 scrollTrigger: {
@@ -250,10 +257,9 @@
             });
         });
 
-        // 3. 数字增长动画 (心理学诱导：FOMO感)
         let memberObj = { value: 0 };
         gsap.to(memberObj, {
-            value: 8500, // 假设一个吸引人的基数
+            value: 8500,
             duration: 3,
             delay: 1,
             ease: "power2.out",
