@@ -11,8 +11,26 @@
 
     <meta property="og:title" content="Discord Chinese | The Ultimate Bridge to Mandarin">
     <meta property="og:description" content="Connect with native speakers and master HSK with the most active Chinese community on Discord.">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630">
+    <meta property="og:image" content="/images/discord-chinese.png">
     <meta property="og:url" content="https://discordchinese.qzz.io">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/discord-chinese.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Discord Chinese",
+      "url": "https://discordchinese.qzz.io",
+      "logo": "https://discordchinese.qzz.io/images/discord-chinese.png",
+      "description": "The ultimate Discord community for learning Mandarin Chinese, preparing for HSK exams, and connecting with native speakers.",
+      "sameAs": [
+        "https://discord.gg/s4RtxQHdUV"
+      ]
+    }
+    </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
     
@@ -27,6 +45,7 @@
                 extend: {
                     colors: {
                         discord: '#5865F2',
+                        discordHover: '#4752C4',
                         discordDark: '#0E0F12',
                         cnRed: '#E53E3E',
                     }
@@ -53,7 +72,7 @@
         .seo-hidden { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
     </style>
 </head>
-<body class="antialiased">
+<body class="antialiased selection:bg-discord selection:text-white">
 
     <div class="seo-hidden">
         <h1>Discord Chinese Community - Learn Mandarin, HSK Prep, Chinese Culture</h1>
@@ -63,94 +82,107 @@
     <div class="ambient-orb orb-1"></div>
     <div class="ambient-orb orb-2"></div>
 
-    <nav class="fixed w-full z-50 top-0 py-4 px-6 md:px-12 flex justify-between items-center glass-card border-none rounded-none !bg-opacity-70">
-        <div class="flex items-center gap-2">
-            <div class="w-8 h-8 bg-cnRed rounded-lg flex items-center justify-center font-bold text-lg">D</div>
-            <span class="text-lg font-black tracking-tighter">Discord<span class="text-cnRed">Chinese</span></span>
+    <nav class="fixed w-full z-50 top-0 py-4 px-4 md:px-12 flex justify-between items-center glass-card border-none rounded-none !bg-opacity-70">
+        <div class="flex items-center gap-3">
+            <img src="/images/discord-chinese.png" alt="Discord Chinese" class="w-10 h-10 rounded-[12px] border border-gray-700 shadow-sm object-cover bg-gray-800">
+            <span class="text-lg md:text-xl font-black tracking-tighter hidden sm:block">Discord<span class="text-cnRed">Chinese</span></span>
         </div>
         
-        <div class="flex items-center gap-4">
-            <button onclick="toggleLanguage()" class="text-xs font-bold border border-gray-700 px-3 py-1.5 rounded-full hover:bg-white hover:text-black transition-all uppercase tracking-widest">
+        <div class="flex items-center gap-3 md:gap-4">
+            <button onclick="toggleLanguage()" class="text-[10px] md:text-xs font-bold border border-gray-700 px-3 py-2 rounded-full hover:bg-white hover:text-black transition-all uppercase tracking-widest">
                 <span data-lang="zh">English</span><span data-lang="en">中文</span>
             </button>
-            <a href="https://discord.gg/s4RtxQHdUV" class="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:scale-105 transition-transform">
-                <span data-lang="zh">加入</span><span data-lang="en">Join</span>
+            <a href="https://discord.gg/s4RtxQHdUV" class="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:scale-105 transition-transform flex items-center gap-1.5 shadow-lg">
+                <i data-lucide="log-in" class="w-4 h-4"></i>
+                <span data-lang="zh" class="hidden sm:inline">加入</span><span data-lang="en" class="hidden sm:inline">Join</span>
             </a>
         </div>
     </nav>
 
-    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
-        <div class="gsap-hero">
-            <h2 class="text-cnRed font-bold tracking-[0.2em] uppercase mb-6 text-sm">Official Landing Page</h2>
-            <h1 class="text-6xl md:text-9xl font-black mb-8 leading-[0.85] tracking-tighter">
+    <section class="min-h-[100svh] flex flex-col justify-center items-center text-center px-4 pt-16">
+        <div class="gsap-hero w-full max-w-4xl mx-auto flex flex-col items-center">
+            
+            <div class="relative mb-8">
+                <div class="absolute inset-0 bg-discord rounded-full blur-xl opacity-40 animate-pulse"></div>
+                <img src="/images/discord-chinese.png" alt="Discord Chinese Logo" class="relative w-24 h-24 md:w-32 md:h-32 rounded-3xl border-2 border-white/10 shadow-2xl object-cover bg-gray-800">
+            </div>
+
+            <h2 class="text-cnRed font-bold tracking-[0.2em] uppercase mb-4 text-xs md:text-sm">Official Landing Page</h2>
+            
+            <h1 class="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black mb-6 leading-[0.9] tracking-tighter">
                 <span data-lang="zh">世界盛大，<br><span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500">欢迎回家。</span></span>
                 <span data-lang="en">THE WORLD IS GRAND,<br><span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500">WELCOME HOME.</span></span>
             </h1>
-            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">
+            
+            <p class="text-gray-400 text-base md:text-xl max-w-2xl mx-auto mb-10 font-light px-2">
                 <span data-lang="zh">不仅是学习中文的社区，更是连接中国文化与世界的桥梁。</span>
                 <span data-lang="en">More than a language community—your bridge to Chinese culture and global connections.</span>
             </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://discord.gg/s4RtxQHdUV" class="bg-cnRed text-white px-10 py-4 rounded-full text-xl font-bold shadow-[0_0_30px_rgba(229,62,62,0.3)] hover:shadow-cnRed/50 transition-all">
-                    <span data-lang="zh">立即加入服务器</span><span data-lang="en">Join Server Now</span>
+            
+            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 sm:px-0">
+                <a href="https://discord.gg/s4RtxQHdUV" class="w-full sm:w-auto bg-discord hover:bg-discordHover text-white px-8 py-4 rounded-full text-lg md:text-xl font-bold shadow-[0_0_30px_rgba(88,101,242,0.4)] hover:shadow-discord/60 transition-all flex items-center justify-center gap-3 group">
+                    <i data-lucide="message-circle" class="w-6 h-6 group-hover:animate-bounce"></i>
+                    <span data-lang="zh">在 Discord 打开</span><span data-lang="en">Open in Discord</span>
                 </a>
             </div>
-            <p class="mt-6 text-gray-500 text-sm">
+            
+            <p class="mt-8 text-gray-500 text-xs md:text-sm flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                 <span data-lang="zh">已有 8,500+ 位探索者在此汇聚</span>
                 <span data-lang="en">8,500+ Explorers gathered here</span>
             </p>
         </div>
     </section>
 
-    <section class="py-20 px-6 max-w-7xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
-            <div class="glass-card md:col-span-7 rounded-[2.5rem] p-10 flex flex-col justify-end min-h-[350px]">
-                <div class="mb-auto w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-cnRed">
+    <section class="py-16 md:py-24 px-4 md:px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
+            <div class="glass-card md:col-span-7 rounded-[2rem] p-8 md:p-10 flex flex-col justify-end min-h-[300px] md:min-h-[350px]">
+                <div class="mb-auto w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-cnRed">
                     <i data-lucide="languages"></i>
                 </div>
-                <h3 class="text-3xl font-bold mb-3">
+                <h3 class="text-2xl md:text-3xl font-bold mb-3 mt-8">
                     <span data-lang="zh">母语交流环境</span><span data-lang="en">Native Immersion</span>
                 </h3>
-                <p class="text-gray-400">
+                <p class="text-gray-400 text-sm md:text-base">
                     <span data-lang="zh">在这里，你可以直接与成百上千的母语者即时语音，感受最地道的口语表达与网络俚语。</span>
                     <span data-lang="en">Chat with hundreds of native speakers in real-time. Master authentic expressions and modern slang.</span>
                 </p>
             </div>
 
-            <div class="glass-card md:col-span-5 rounded-[2.5rem] p-10 flex flex-col justify-end">
-                <div class="mb-auto w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-blue-400">
+            <div class="glass-card md:col-span-5 rounded-[2rem] p-8 md:p-10 flex flex-col justify-end">
+                <div class="mb-auto w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-blue-400">
                     <i data-lucide="info"></i>
                 </div>
-                <h3 class="text-3xl font-bold mb-3">
+                <h3 class="text-2xl md:text-3xl font-bold mb-3 mt-8">
                     <span data-lang="zh">HSK 考试信息</span><span data-lang="en">HSK Information</span>
                 </h3>
-                <p class="text-gray-400">
+                <p class="text-gray-400 text-sm md:text-base">
                     <span data-lang="zh">获取最新的 HSK 3.0 政策、报名资讯及备考资料，让你的考证之路不再迷茫。</span>
                     <span data-lang="en">Get the latest HSK 3.0 updates, registration news, and study resources in one place.</span>
                 </p>
             </div>
 
-            <div class="glass-card md:col-span-5 rounded-[2.5rem] p-10 flex flex-col justify-end min-h-[300px]">
-                <div class="mb-auto w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-purple-400">
+            <div class="glass-card md:col-span-5 rounded-[2rem] p-8 md:p-10 flex flex-col justify-end min-h-[250px] md:min-h-[300px]">
+                <div class="mb-auto w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-purple-400">
                     <i data-lucide="palmtree"></i>
                 </div>
-                <h3 class="text-2xl font-bold mb-3">
+                <h3 class="text-xl md:text-2xl font-bold mb-3 mt-8">
                     <span data-lang="zh">深度文化交流</span><span data-lang="en">Cultural Exchange</span>
                 </h3>
-                <p class="text-gray-400">
+                <p class="text-gray-400 text-sm md:text-base">
                     <span data-lang="zh">探索中国美食、旅游、历史与艺术。从故宫的砖瓦到现代的赛博成都。</span>
                     <span data-lang="en">Explore Chinese food, travel, history, and art—from ancient palaces to modern cities.</span>
                 </p>
             </div>
 
-            <div class="glass-card md:col-span-7 rounded-[2.5rem] p-10 flex flex-col justify-end">
-                <div class="mb-auto w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-green-400">
+            <div class="glass-card md:col-span-7 rounded-[2rem] p-8 md:p-10 flex flex-col justify-end">
+                <div class="mb-auto w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-green-400">
                     <i data-lucide="users"></i>
                 </div>
-                <h3 class="text-2xl font-bold mb-3">
+                <h3 class="text-xl md:text-2xl font-bold mb-3 mt-8">
                     <span data-lang="zh">社区朋友圈</span><span data-lang="en">Community Circle</span>
                 </h3>
-                <p class="text-gray-400">
+                <p class="text-gray-400 text-sm md:text-base">
                     <span data-lang="zh">分享你的生活瞬间、游戏成就或摄影作品。在这里，跨越时区建立真正的友谊。</span>
                     <span data-lang="en">Share moments, gaming feats, and photography. Build friendships across time zones.</span>
                 </p>
@@ -158,14 +190,18 @@
         </div>
     </section>
 
-    <footer class="py-20 text-center border-t border-white/5">
-        <div class="px-6">
-            <h2 class="text-3xl font-bold mb-8">Ready to Start?</h2>
-            <a href="https://discord.gg/s4RtxQHdUV" class="inline-block text-gray-400 hover:text-white transition-colors underline decoration-cnRed underline-offset-8">
-                https://discord.gg/s4RtxQHdUV
+    <footer class="py-20 text-center border-t border-white/5 relative overflow-hidden">
+        <div class="px-4 relative z-10 flex flex-col items-center">
+            <h2 class="text-3xl md:text-5xl font-black mb-8">
+                <span data-lang="zh">准备好开启新旅程了吗？</span><span data-lang="en">Ready to Start?</span>
+            </h2>
+            
+            <a href="https://discord.gg/s4RtxQHdUV" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-black hover:bg-gray-200 font-bold rounded-full text-lg shadow-xl hover:scale-105 transition-transform">
+                <span data-lang="zh">加入 Discord 社区</span><span data-lang="en">Join Discord Community</span>
+                <i data-lucide="arrow-right" class="w-5 h-5"></i>
             </a>
             
-            <div class="mt-20 max-w-4xl mx-auto flex flex-wrap justify-center gap-x-4 gap-y-2 text-[10px] text-gray-700 uppercase tracking-tighter opacity-50">
+            <div class="mt-20 max-w-4xl mx-auto flex flex-wrap justify-center gap-x-4 gap-y-2 text-[9px] md:text-[10px] text-gray-700 uppercase tracking-tighter opacity-50 px-2">
                 <span>Learn Chinese</span> <span>HSK 1-6</span> <span>Mandarin Discord</span> <span>Chinese Grammar</span> 
                 <span>Study in China</span> <span>Beijing</span> <span>Shanghai</span> <span>Chinese Slang</span>
                 <span>Pinyin Guide</span> <span>Chinese Characters</span> <span>HSK Test</span> <span>Chinese Friends</span>
@@ -173,7 +209,7 @@
                 <span>HSK Info</span> <span>Chinese Culture</span> <span>Mandarin Practice</span> <span>Business Chinese</span>
             </div>
             
-            <p class="mt-10 text-gray-600 text-xs">© 2026 Discord Chinese. All rights reserved.</p>
+            <p class="mt-12 text-gray-600 text-xs">© 2026 Discord Chinese. All rights reserved.</p>
         </div>
     </footer>
 
@@ -198,7 +234,7 @@
         if (savedLang) document.documentElement.setAttribute('lang', savedLang);
 
         // 动画
-        gsap.from(".gsap-hero", { y: 50, opacity: 0, duration: 1.2, ease: "power4.out" });
+        gsap.from(".gsap-hero > *", { y: 30, opacity: 0, duration: 1, stagger: 0.15, ease: "power3.out" });
         
         gsap.utils.toArray('.glass-card').forEach(card => {
             gsap.from(card, {
