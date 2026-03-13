@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN,en,zh,zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>404 Not Found | Discord Chinese</title>
+    <meta name="description" content="The page you are looking for doesn't exist. 页面不存在。">
+    
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/discord-chinese.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        discord: '#5865F2',
+                        discordHover: '#4752C4',
+                        discordDark: '#0E0F12',
+                        cnRed: '#E53E3E',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { background-color: #0E0F12; color: #ffffff; font-family: 'Inter', 'Noto Sans SC', sans-serif; overflow-x: hidden; }
+        .ambient-orb { position: fixed; border-radius: 50%; filter: blur(100px); z-index: -1; opacity: 0.25; pointer-events: none; }
+        .orb-1 { top: -10%; left: -10%; width: 50vw; height: 50vw; background: radial-gradient(circle, #E53E3E 0%, transparent 70%); }
+        .orb-2 { bottom: -10%; right: -10%; width: 50vw; height: 50vw; background: radial-gradient(circle, #3182CE 0%, transparent 70%); }
+        
+        .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.4s ease; }
+        
+        /* 语言切换逻辑 */
+        [data-lang] { display: none; }
+        html[lang="zh-CN"] [data-lang="zh"] { display: block; }
+        html[lang="zh-CN"] span[data-lang="zh"] { display: inline; }
+        html[lang="en"] [data-lang="en"] { display: block; }
+        html[lang="en"] span[data-lang="en"] { display: inline; }
+    </style>
+</head>
+<body class="antialiased selection:bg-discord selection:text-white">
+
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+
+    <nav class="fixed w-full z-50 top-0 py-4 px-4 md:px-12 flex justify-between items-center glass-card border-none rounded-none !bg-opacity-70">
+        <a href="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+            <img src="/images/discord-chinese.png" alt="Discord Chinese" class="w-10 h-10 rounded-[12px] border border-gray-700 shadow-sm object-cover bg-gray-800">
+            <span class="text-lg md:text-xl font-black tracking-tighter hidden sm:block">Discord<span class="text-cnRed">Chinese</span></span>
+        </a>
+        
+        <div class="flex items-center gap-3 md:gap-4">
+            <button onclick="toggleLanguage()" class="text-[10px] md:text-xs font-bold border border-gray-700 px-3 py-2 rounded-full hover:bg-white hover:text-black transition-all uppercase tracking-widest">
+                <span data-lang="zh">English</span><span data-lang="en">中文</span>
+            </button>
+            <a href="https://discord.gg/s4RtxQHdUV" class="bg-white text-black px-4 py-2 rounded-full text-sm font-bold hover:scale-105 transition-transform flex items-center gap-1.5 shadow-lg">
+                <i data-lucide="log-in" class="w-4 h-4"></i>
+                <span data-lang="zh" class="hidden sm:inline">加入社区</span><span data-lang="en" class="hidden sm:inline">Join Server</span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="min-h-[100svh] flex flex-col justify-center items-center text-center px-4 pt-16">
+        <div class="gsap-hero w-full max-w-4xl mx-auto flex flex-col items-center">
+            
+            <h2 class="text-cnRed font-bold tracking-[0.2em] uppercase mb-4 text-xs md:text-sm">
+                <span data-lang="zh">错误 404</span><span data-lang="en">Error 404</span>
+            </h2>
+            
+            <h1 class="text-8xl sm:text-9xl md:text-[12rem] font-black mb-6 leading-[0.9] tracking-tighter">
+                <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-600">404</span>
+            </h1>
+            
+            <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+                <span data-lang="zh">迷失在数字虚空之中...</span>
+                <span data-lang="en">Lost in the digital void...</span>
+            </h3>
+
+            <p class="text-gray-400 text-base md:text-xl max-w-2xl mx-auto mb-10 font-light px-2">
+                <span data-lang="zh">你寻找的页面似乎不存在，或者已经被移动到了另一个平行宇宙。不如重新回到我们的主页吧。</span>
+                <span data-lang="en">The page you are looking for doesn't exist, or has been moved to another parallel universe. Let's get you back home.</span>
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 sm:px-0">
+                <a href="/" class="w-full sm:w-auto bg-discord hover:bg-discordHover text-white px-8 py-4 rounded-full text-lg md:text-xl font-bold shadow-[0_0_30px_rgba(88,101,242,0.4)] hover:shadow-discord/60 transition-all flex items-center justify-center gap-3 group">
+                    <i data-lucide="home" class="w-6 h-6 group-hover:scale-110 transition-transform"></i>
+                    <span data-lang="zh">返回主页</span><span data-lang="en">Return Home</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="absolute bottom-0 w-full py-6 text-center z-10">
+        <p class="text-gray-600 text-xs">© 2026 Discord Chinese. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // 初始化图标
+        lucide.createIcons();
+
+        // 语言切换逻辑
+        function toggleLanguage() {
+            const html = document.documentElement;
+            const current = html.getAttribute('lang');
+            const next = current === 'zh-CN' ? 'en' : 'zh-CN';
+            
+            gsap.to("body", { opacity: 0, duration: 0.2, onComplete: () => {
+                html.setAttribute('lang', next);
+                localStorage.setItem('pref-lang', next);
+                gsap.to("body", { opacity: 1, duration: 0.3 });
+            }});
+        }
+
+        // 读取本地储存的语言偏好
+        const savedLang = localStorage.getItem('pref-lang');
+        if (savedLang) document.documentElement.setAttribute('lang', savedLang);
+
+        // 页面加载动画
+        gsap.from(".gsap-hero > *", { y: 30, opacity: 0, duration: 1, stagger: 0.15, ease: "power3.out" });
+    </script>
+</body>
+</html>
