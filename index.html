@@ -70,6 +70,13 @@
         html[lang="en"] span[data-lang="en"] { display: inline; }
 
         .seo-hidden { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+        
+        /* Widget iframe 自定义滚动条和优化 */
+        .widget-container iframe {
+            border-radius: 12px;
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+            background: rgba(30, 31, 34, 0.5);
+        }
     </style>
 </head>
 <body class="antialiased selection:bg-discord selection:text-white">
@@ -136,6 +143,7 @@
 
     <section class="py-16 md:py-24 px-4 md:px-6 max-w-7xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
+            
             <div class="glass-card md:col-span-7 rounded-[2rem] p-8 md:p-10 flex flex-col justify-end min-h-[300px] md:min-h-[350px]">
                 <div class="mb-auto w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-cnRed">
                     <i data-lucide="languages"></i>
@@ -175,18 +183,35 @@
                 </p>
             </div>
 
-            <div class="glass-card md:col-span-7 rounded-[2rem] p-8 md:p-10 flex flex-col justify-end">
-                <div class="mb-auto w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-green-400">
-                    <i data-lucide="users"></i>
+            <div class="glass-card md:col-span-7 rounded-[2rem] p-8 md:p-10 flex flex-col md:flex-row gap-8 items-center justify-between overflow-hidden">
+                <div class="flex flex-col justify-center h-full max-w-sm z-10 w-full">
+                    <div class="mb-auto w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center text-green-400">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-3 mt-8">
+                        <span data-lang="zh">社区朋友圈 & 实时动态</span><span data-lang="en">Community & Live Status</span>
+                    </h3>
+                    <p class="text-gray-400 text-sm md:text-base mb-6">
+                        <span data-lang="zh">看看现在有多少人在线！分享你的生活瞬间、游戏成就或摄影作品。跨越时区建立真正的友谊。</span>
+                        <span data-lang="en">See who's online right now! Share moments, gaming feats, and photography. Build friendships across time zones.</span>
+                    </p>
                 </div>
-                <h3 class="text-xl md:text-2xl font-bold mb-3 mt-8">
-                    <span data-lang="zh">社区朋友圈</span><span data-lang="en">Community Circle</span>
-                </h3>
-                <p class="text-gray-400 text-sm md:text-base">
-                    <span data-lang="zh">分享你的生活瞬间、游戏成就或摄影作品。在这里，跨越时区建立真正的友谊。</span>
-                    <span data-lang="en">Share moments, gaming feats, and photography. Build friendships across time zones.</span>
-                </p>
+                
+                <div class="w-full md:w-[320px] h-[350px] flex-shrink-0 z-10 widget-container relative">
+                    <div class="absolute inset-0 bg-white/5 rounded-xl animate-pulse -z-10"></div>
+                    <iframe 
+                        src="https://discord.com/widget?id=1047826058952577055&theme=dark" 
+                        width="100%" 
+                        height="100%" 
+                        allowtransparency="true" 
+                        frameborder="0" 
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                        loading="lazy"
+                        title="Discord Server Live Status">
+                    </iframe>
+                </div>
             </div>
+            
         </div>
     </section>
 
