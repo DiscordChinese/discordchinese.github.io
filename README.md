@@ -51,6 +51,13 @@
 - [🚀 立即加入](#-立即加入)
 
 ---
+<details>
+<summary>🢡 网站图片示例 / Website Exemple Image</summary>
+  Discord Chinese English:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/47c85537-83be-4bfb-bda2-c0a2959c1cd8" />
+  Discord Chinese 中文:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/eeb98791-e643-4599-97a1-e1e09b37237d" />
+</details>
 
 ## ✨ 为什么选择 Discord Chinese？
 
@@ -135,6 +142,7 @@
 - 🌟 **愿景**：成为全球最大的中文学习 Discord 社群。<br>*Vision: To become the largest Chinese learning Discord community in the world.*
 - 🤝 **行为准则**：尊重、互助、包容。禁止歧视与广告。<br>*Code of Conduct: Respect, mutual support, inclusivity. No discrimination or unsolicited advertising.*
 - 🔗 **更多链接**：[官网](https://discordchinese.qzz.io) | [邀请链接](https://discord.gg/s4RtxQHdUV)<br>*More links: [Official Website](https://discordchinese.qzz.io) | [Invite Link](https://discord.gg/s4RtxQHdUV)*
+
 
 ---
 
