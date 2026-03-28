@@ -5,6 +5,7 @@
 > **相关链接**  
 > - 官方网站：[https://discordchinese.qzz.io](https://discordchinese.qzz.io)  
 > - Discord 社区邀请：[https://discord.gg/s4RtxQHdUV](https://discord.gg/s4RtxQHdUV)
+> ---
 >  # 📁 This repository is the source code of [Discord Chinese official website](https://discordchinese.qzz.io).
 > This warehouse contains the HTML, CSS, static resources and configuration files of the official website, aiming to provide a transparent open source display for the Chinese learning community website.
 > And please also note that all content in this repository is produced by AI
@@ -13,6 +14,8 @@
 > - Official website: [https://discordchinese.qzz.io](https://discordchinese.qzz.io)
 > - Discord community invitation: [https://discord.gg/s4RtxQHdUV](https://discord.gg/s4RtxQHdUV)
 
+
+---
 
 
 <p align="center">
