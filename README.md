@@ -5,7 +5,8 @@
 > **相关链接**  
 > - 官方网站：[https://discordchinese.qzz.io](https://discordchinese.qzz.io)  
 > - Discord 社区邀请：[https://discord.gg/s4RtxQHdUV](https://discord.gg/s4RtxQHdUV)  
->
+
+
 
 <p align="center">
   <img src="/images/discord-chinese.png" alt="Discord Chinese Logo" width="120" height="120" style="border-radius: 24px;">
