@@ -92,7 +92,7 @@
 - 🚂 **崩坏：星穹铁道 / Honkai: Star Rail** – 梗文化分享，中文配音鉴赏。<br>*Share memes and enjoy the original Chinese voice acting.*
 - 🐒 **黑神话：悟空 / Black Myth: Wukong** – 西游记背景知识，文言台词解析。<br>*Explore Journey to the West background and classical Chinese dialogue.*
 - 📺 **国漫与国产剧 / Chinese Anime & Drama** – 实时追番讨论，台词学习。<br>*Real-time discussions and line studies for the latest shows.*
-- 🌶️ **网络热梗 / Internet Slang** – 学习最潮的“YYDS”、“破防了”、“绝绝子”。<br>*Learn trending slang like “YYDS”, “pòfáng le”, “juéjuézi”.*
+- 🌶️ **了解网络热梗 / Know Internet Slang** – 这里有6G网速的成员，可帮你了解最新的网络热梗。<br>*Here have a "6G WiFi's" user, can for you know the most new Chinese Internet Slang*
 
 在这里，**游戏术语**和**流行语**不再是障碍，而是你融入中文社群的钥匙。<br>
 *Here, gaming jargon and pop culture lingo become your keys to connecting with the Chinese community.*
@@ -127,14 +127,14 @@
 
 ---
 
-## 📄 关于本项目 | About
+## 📄 关于本服务器 | About
 
 **Discord Chinese** 是一个完全由志愿者和中文爱好者驱动的社区。我们不隶属于任何考试机构，但致力于提供最准确、最友善的语言学习环境。<br>
 *Discord Chinese is a community fully driven by volunteers and Chinese language enthusiasts. We are not affiliated with any testing organization, but we strive to provide the most accurate and friendly language learning environment.*
 
 - 🌟 **愿景**：成为全球最大的中文学习 Discord 社群。<br>*Vision: To become the largest Chinese learning Discord community in the world.*
 - 🤝 **行为准则**：尊重、互助、包容。禁止歧视与广告。<br>*Code of Conduct: Respect, mutual support, inclusivity. No discrimination or unsolicited advertising.*
-- 🔗 **更多链接**：[官网](https://discordchinese.qzz.io) | [邀请链接](https://discord.gg/s4RtxQHdUV)<br>*More links: Official Website | Invite Link*
+- 🔗 **更多链接**：[官网](https://discordchinese.qzz.io) | [邀请链接](https://discord.gg/s4RtxQHdUV)<br>*More links: [Official Website](https://discordchinese.qzz.io) | [Invite Link](https://discord.gg/s4RtxQHdUV)*
 
 ---
 
