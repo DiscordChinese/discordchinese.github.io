@@ -1,6 +1,6 @@
 > # 📁 此存储库为 [Discord Chinese 官方网站](https://discordchinese.qzz.io) 的源代码。  
-> 本仓库包含官网的 HTML、CSS、静态资源及配置文件，旨在为中文学习社区网站提供透明的开源展示。  
-> 欢迎提交 Issue 或 Pull Request 来帮助改进内容、修复问题或优化用户体验。  
+> 本仓库包含官网的 HTML、CSS、静态资源及配置文件，旨在为中文学习社区网站提供透明的开源展示。
+> 并且也请注意，本存储库所有内容为AI制作
 >
 > **相关链接**  
 > - 官方网站：[https://discordchinese.qzz.io](https://discordchinese.qzz.io)  
