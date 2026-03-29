@@ -34,16 +34,16 @@
 
 <p align="center">
   <a href="https://discord.gg/s4RtxQHdUV">
-    <img src="https://img.shields.io/badge/Discord-加入社区-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
+    <img src="https://img.shields.io/badge/Discord-加入社区 Join Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
   </a>
   <a href="https://discordchinese.qzz.io">
-    <img src="https://img.shields.io/badge/官方网站-discordchinese.qzz.io-0E0F12?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
+    <img src="https://img.shields.io/badge/官方网站 Official Website-discordchinese.qzz.io-0E0F12?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
   </a>
   <br>
-  <img src="https://img.shields.io/badge/成员-9,000+-brightgreen?style=flat-square&logo=discord" alt="Members">
-  <img src="https://img.shields.io/badge/HSK-1~9_资讯-blue?style=flat-square&logo=bookstack" alt="HSK">
-  <img src="https://img.shields.io/badge/语言-中丨英丨交换-orange?style=flat-square&logo=googletranslate" alt="Languages">
-  <img src="https://img.shields.io/badge/游戏-原神丨星铁丨黑神话-red?style=flat-square&logo=genshinimpact" alt="Gaming">
+  <img src="https://img.shields.io/badge/成员 People's-9,000+-brightgreen?style=flat-square&logo=discord" alt="Members">
+  <img src="https://img.shields.io/badge/HSK-1~9_资讯 Information-blue?style=flat-square&logo=bookstack" alt="HSK">
+  <img src="https://img.shields.io/badge/语言 Languages-中 Chinese丨英 English丨交换 Exchange-orange?style=flat-square&logo=googletranslate" alt="Languages">
+  <img src="https://img.shields.io/badge/游戏 Games-原神 GI| 崩铁 HSR丨黑神话 BMW-red?style=flat-square&logo=genshinimpact" alt="Gaming">
 </p>
 
 <p align="center">
