@@ -54,7 +54,7 @@
 <br>
 
 ## 📌 目录 | Table of Contents
-- [✨ 为什么选择 Discord Chinese？](#-为什么选择-discord-chinese)
+- [✨ 为什么选择 Discord Chinese？Why choose Discord Chinese?](#-为什么选择-discord-chinese-Why-choose-Discord-Chinese)
 - [📚 HSK 专业资讯与备考](#-hsk-专业资讯与备考)
 - [🎮 游戏与流行文化](#-游戏与流行文化)
 - [🌍 深度文化体验](#-深度文化体验)
@@ -72,13 +72,13 @@
   <img width="1366" alt="image" src="https://github.com/user-attachments/assets/eeb98791-e643-4599-97a1-e1e09b37237d" />
 </details>
 
-## ✨ 为什么选择 Discord Chinese？
+## ✨ 为什么选择 Discord Chinese？Why choose Discord Chinese?
 
 | 🎤 母语交流环境<br>Native Immersion | 📖 专业 HSK 资讯<br>HSK Information Hub | 🏮 深度文化桥梁<br>Cultural Bridge | 👥 全球朋友圈<br>Global Circle |
 | :--- | :--- | :--- | :--- |
-| 与成百上千的**中文母语者**实时语音，掌握地道口语与**网络俚语**。<br><br>*Chat with hundreds of native speakers in real-time. Master authentic expressions and modern slang.* | **HSK1-6** 官方资讯、真题解析、备考规划，以及最新 **HSK7-9** 趋势。<br><br>*Official HSK info, past paper analysis, study plans, and the latest HSK 7-9 updates.* | 从**故宫**到**赛博成都**，探索美食、旅游、历史与当代艺术。<br><br>*From the Forbidden City to Cyber Chengdu — explore food, travel, history, and modern art.* | 分享日常、游戏成就、摄影作品，跨越时区建立**真正友谊**。<br><br>*Share moments, gaming feats, and photography. Build friendships across time zones.* |
+| 与成百上千的**中文母语者**实时语音，掌握地道口语与**网络俚语**（梗）。<br><br>*Chat with hundreds of native speakers in real-time. Master authentic expressions and modern slang.* | **HSK1-6** 官方资讯、真题解析、备考规划，以及最新 **HSK7-9** 趋势。<br><br>*Official HSK info, past paper analysis, study plans, and the latest HSK 7-9 updates.* | 从**故宫**到**赛博成都**，探索美食、旅游、历史与当代艺术。<br><br>*From the Forbidden City to Cyber Chengdu — explore food, travel, history, and modern art.* | 分享日常、游戏成就、摄影作品，跨越时区建立**真正友谊**。<br><br>*Share moments, gaming feats, and photography. Build friendships across time zones.* |
 
-**在这里，你可以：**
+**在这里，你可以 Here you can：**
 - 找到 **中文语言交换** 伙伴，每天练习 **口语、听力、写作**。<br>*Find language exchange partners and practice speaking, listening, and writing every day.*
 - 获取 **HSK 考试日期、报名指南、模拟试题** 等一手资料。<br>*Get first-hand HSK exam dates, registration guides, and mock tests.*
 - 参与 **语音频道** 的即兴讨论，主题涵盖 **中国旅行、商务汉语、考研中文**。<br>*Join voice channels for casual talks about travel in China, business Chinese, and postgraduate Chinese exams.*
@@ -86,7 +86,7 @@
 
 ---
 
-## 📚 HSK 专业资讯与备考
+## 📚 HSK 专业资讯与备考 Professional information and exam preparation
 
 我们为所有级别的中文学习者提供支持，无论你是**零基础**还是准备冲击**高级**。<br>
 *We support learners at every level — from absolute beginners to those aiming for advanced proficiency.*
@@ -103,7 +103,7 @@
 
 ---
 
-## 🎮 游戏与流行文化
+## 🎮 游戏与流行文化 Games and pop culture
 
 语言学习不必枯燥！在我们的**游戏频道**，你可以在娱乐中自然提升中文水平。<br>
 *Language learning doesn’t have to be boring. In our gaming channels, you’ll naturally improve your Chinese while having fun.*
@@ -119,7 +119,7 @@
 
 ---
 
-## 🌍 深度文化体验
+## 🌍 深度文化体验 In-depth cultural experience
 
 我们相信，语言是文化的载体。通过以下方式，你将真正理解中国：<br>
 *We believe language is the vessel of culture. Through these experiences, you’ll truly understand China:*
@@ -131,7 +131,7 @@
 
 ---
 
-## 🚀 立即加入
+## 🚀 立即加入 Join Now
 
 | 加入方式 Link | 说明 Description |
 | :--- | :--- |
