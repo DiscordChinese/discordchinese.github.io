@@ -54,11 +54,11 @@
 <br>
 
 ## 📌 目录 | Table of Contents
-- [✨ 为什么选择 Discord Chinese？Why choose Discord Chinese?](#-为什么选择-discord-chinese-Why-choose-Discord-Chinese)
-- [📚 HSK 专业资讯与备考](#-hsk-专业资讯与备考)
-- [🎮 游戏与流行文化](#-游戏与流行文化)
-- [🌍 深度文化体验](#-深度文化体验)
-- [🚀 立即加入](#-立即加入)
+- [✨ 为什么选择 Discord Chinese？Why choose Discord Chinese?](#-为什么选择-discord-chinesewhy-choose-discord-chinese)
+- [📚 HSK 专业资讯与备考](#-hsk-专业资讯与备考-professional-information-and-exam-preparation)
+- [🎮 游戏与流行文化](#-游戏与流行文化-games-and-pop-culture)
+- [🌍 深度文化体验](#-深度文化体验-in-depth-cultural-experience)
+- [🚀 立即加入](#-立即加入-join-now)
 
 ---
 
